@@ -6,6 +6,6 @@ Navigate to `http://localhost:8080/triangle?a=10&b=10&c=3` on a browser. Check c
 Or check bad parameters for example: `http://localhost:8080/triangle?a=1`
 
 ### To stop:
-- docker ps
+- `docker ps`
 Find the containerid
-- docker stop {container id}
+- `docker stop {container id}`
