@@ -11,9 +11,6 @@ app.get('/', (req, res) => {
 });
 
 app.get('/triangle', (req, res) => {
-  var a;
-  var b;
-  var c;
   try {
     const a = req.query.a;
     const b = req.query.b;
