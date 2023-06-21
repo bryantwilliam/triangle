@@ -1,5 +1,5 @@
 ## Run these commands:
-- `cd {folder}`
+- `cd {the folder that this project is in}`
 - `docker build . -t triangle`
 - `docker run -p 8080:8080 triangle`
 Navigate to `http://localhost:8080/triangle?a=10&b=10&c=3` on a browser. Check console (F12) for error code.
